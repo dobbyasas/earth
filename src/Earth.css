@@ -12,6 +12,7 @@ body {
 }
 
 .earth {
+  position: absolute;
   width: 9rem; 
   height: 9rem; 
   border-radius: 50%;

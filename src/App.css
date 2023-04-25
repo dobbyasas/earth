@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/img/space.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the background adjust to the screen size */
+  background-attachment: fixed; /* Keep the background fixed on scrolling */
+}
+
 .App {
   height: 100vh;
   display: flex;
