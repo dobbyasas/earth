@@ -1,0 +1,21 @@
+.moon {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-image: url('./assets/img/moon.png');
+    background-size: 99%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: orbit 10s infinite linear;
+  }
+  
+  @keyframes orbit {
+    0% {
+      transform: rotate(0) translate(15rem) rotate(0);
+    }
+    100% {
+      transform: rotate(360deg) translate(15rem) rotate(-360deg);
+    }
+  }
+  

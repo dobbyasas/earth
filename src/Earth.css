@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.earth {
+  width: 9rem; 
+  height: 9rem; 
+  border-radius: 50%;
+  background-color: rgb(0, 183, 255); 
+  background-image: url('./assets/img/earth.png');
+  background-position: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
